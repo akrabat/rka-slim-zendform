@@ -1,0 +1,29 @@
+{
+    "name": "akrabat/rka-slim-zfform",
+    "type": "library",
+    "description": "Slim Framework ZF2 form service provider",
+    "keywords": ["slim","framework","provider","zf2","form","zend-form"],
+    "homepage": "http://akrabat.com",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Rob Allen",
+            "email": "rob@akrabat.com",
+            "homepage": "http://akrabat.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "pimple/pimple": "~3.0",
+        "zendframework/zend-form": "^2.4",
+        "zendframework/zend-servicemanager": "^2.4",
+        "zendframework/zend-i18n": "^2.4",
+        "zendframework/zend-view": "^2.4",
+        "zendframework/zend-escaper": "^2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "RKA\\Form\\": "src"
+        }
+    }
+}
