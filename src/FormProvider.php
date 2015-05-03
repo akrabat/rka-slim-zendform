@@ -28,7 +28,7 @@ class FormProvider implements \Pimple\ServiceProviderInterface
         $smConfigurator = new ServiceManagerConfigurator();
         $serviceManager = $smConfigurator->createServiceManager($this->settings);
 
-        $container['serviceManager'] = $this;
+        $container['serviceManager'] = $serviceManager;
 
         if ($container['view'] instanceof \Slim\Views\Twig) {
             // Register Zend\Forms view helpers
