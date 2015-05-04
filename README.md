@@ -85,7 +85,7 @@ This service provider integrates Zend\Form into a Slim 3 application.
                 }
             }
 
-            $this['view']->render('home.twig', array(
+            $this['view']->render($response, 'home.twig', array(
                 'form' => $form
             ));
             return $response;
