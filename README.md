@@ -6,7 +6,7 @@ This service provider integrates Zend\Form into a Slim 3 application.
 ## Usage
 
 1. `composer require slim/twig-view`
-2. `composer require akrabat/rka-slim-zfform`
+2. `composer require akrabat/rka-slim-zendform`
 3. register in index.php:
 
         $app->register(new \Slim\Views\Twig('path/to/templates', [
